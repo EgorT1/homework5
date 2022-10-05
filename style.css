@@ -1,0 +1,66 @@
+.img1 {
+	width: 200px;
+	height: 200px;
+	margin: 10px 30px;
+}
+
+.containerBox {
+	width: ;
+}
+
+.Box2 {
+	display: flex;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+	z-index: 1;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	background-color: darkgray;
+	position: absolute;
+
+}
+
+.p2 {
+	margin: auto;
+	color: white;
+}
+
+.Box1 {
+	margin: 0px 10px;
+	color: black;
+	width: 260px;
+	background-color: aqua;
+	height: 490px;
+	transition: 1s;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	flex-direction: column;
+	position:  absolute;
+	border-radius: 10px;
+	z-index: 2;
+}
+
+.p1 {
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+
+.a1 {
+	font-size: 30px;
+	margin: 10px 68px;
+	font-weight: bold;
+
+}
+
+.Box1:hover {
+	background-color: gray;
+	color: white;
+	margin-left: 200px;
+}
+
+.a1:hover {
+	text-decoration: underline;
+}
